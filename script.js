@@ -1,16 +1,4 @@
-<!-- TODO: 
-1.einen random User erstellen, eine JSON Struktur dafür erstellen
-2.Anfrage über Postman stellen und damit einer Response zurückkriegen
-3.Response in einen String speichern und danach in Objekt umwandeln und zurückabschicken -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API Übung Randomuser Generator</title>
-    <script>
-        const randomUser = {
+const randomUser = {
   firstName: "Gerald",
   lastName: "Week",
   email: "gerald@week.de",
@@ -93,10 +81,3 @@ deserialUser.name.last = "Blahnik";
 const serialUser = JSON.stringify(deserialUser);
 console.log(serialUser);
 
-
-    </script>
-</head>
-<body>
-    
-</body>
-</html>
